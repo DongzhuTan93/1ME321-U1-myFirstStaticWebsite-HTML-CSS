@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datakommunikation och webbadresser</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 class="page-header"><b>Datakommunikation och webbadresser</b></h1>
+        <nav>
+            <ul>
+                <li><b><a href="index.html">Datakommunikation och webbadresser</a></b></li>
+                <li><b><a href="page2.html"> HTML</a></b></li>
+                <li><b><a href="page3.html">CSS</a></b></li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>HTTP</h2>
+        <div>
+            <a href="http://medieteknik.lnu.se/1me321/links.html" target="_blank">
+                <img src="img/hacker-3081816_640.jpg" alt="http" width="400">
+            </a>
+        </div>
+        <h2>Syfte?</h2>
+        <p id=one>
+            Syftet med HTTP är att möjliggöra överföring av filer över internet. Filerna överförs mellan webbklienter och webbservrar. Mer info finns i: <a href="https://sv.wikipedia.org/wiki/World_Wide_Web" target="_blank">Word Wide Web</a> artikeln på Wikipedia
+        </p>
+        <h2>Vad gör HTTP?</h2>
+            HTTP protokollet fungerar så att klienten först skickar en begäran om en resurs (till exempel en HTML webbsida eller en bild) från en webbserver. Webbservern skickar då ett svar till klienten med den begärda resursen (om klienten har behörighet att visa den).
+        </p>
+        <h2>TCP</h2>
+        <p>
+            Delar upp information i små delar (paket) som sedan skickas till mottagaren med hjälp av IP protokollet nedan .
+        </p>
+        <h2>IP</h2>
+        <p>
+            IP protokollet används för att veta till vilken ip-adress och maskin en fil ska skickas. Maskiner identifieras med hjälp av ett ip-nummer.
+        </p>
+        <h2>Delarna av en URL</h2>
+        <p><b>Example:http://medieteknik.lnu.se/1me321/uppg/u1.html#fragor</b></p>
+        <ul>
+            <li>http:// - Protokollet som används för överföring av filerna</li>
+            <li>medieteknik.lnu.se/ - Domänen som webbservern finns på.</li> 
+            <li>1me321/uppg/u1.html - Sökvägen till resursen vi vill åt</li>
+            <li>#fragor - Ett "ankare" som indikerar till vilken sektion på webbsidan som ska visas när sidan laddas.</li>
+        </ul>
+    </body>
+</html>

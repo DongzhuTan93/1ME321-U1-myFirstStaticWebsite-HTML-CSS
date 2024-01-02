@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+html {
+    font-size: 16px;
+}
+body {
+    width:500px;
+    margin:0 auto;
+    padding: 10px;
+    background-color:cornsilk;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color: brown;
+}
+
+img {
+    max-width: 100%
+}
+
+p {
+    padding:1px;
+}
+
+#one {
+    background-color:mediumaquamarine;
+    font-size: 20px;
+    color:darkslategray;
+    font-weight: bold;
+}
+
+#two {
+    background-image:  url(../img/programmer-gdb5daa22f_640.jpg);
+    background-repeat: repeat;
+    background-position:bottom;
+    font-size: 20px;
+    width: 500px;
+    height: 150px
+}
+
+a:hover {
+    color: red;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.page-header {
+ color:tomato;
+}
